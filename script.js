@@ -49,7 +49,7 @@ dropdownsbtns.forEach((btn) => {
     closebaseroot.setAttribute("aria-expanded", !isbaseHidden);
 
     // const closecontent = btn.closest(".MuiAccordionSummary-content");
-    console.log(closecontent);
+    // console.log(closecontent);
     // closecontent.classList.toggle("Mui-expanded");
 
     const isHidden = btn.getAttribute("aria-hidden") === "true";
@@ -79,6 +79,7 @@ dropdownsbtns.forEach((btn) => {
       collapsedcontenet.classList.toggle("css-a0y2e3");
 
       collapsedcontenet.classList.toggle("animate");
+      collapsedcontenet.classList.toggle("unanimate");
 
       // <<<<<<<<<<<<<<  ✨ Codeium Command 🌟 >>>>>>>>>>>>>>>>
       // collapsedcontenet.style.height =
@@ -88,33 +89,35 @@ dropdownsbtns.forEach((btn) => {
       //   // setTimeout(() => {
       //   //   collapsedcontenet.style.height = "auto";
       //   // }, 300)
+
+        // console.log();
       // } else {
       //   collapsedcontenet.style.height = "0";
       //   // setTimeout(() => {
       //   //   collapsedcontenet.style.height = "0";
       //   // }, 300);
       // }
-      // <<<<<<<  50ffda9e-92c4-4754-8b64-57c07962de8a  >>>>>>>
+      // // <<<<<<<  50ffda9e-92c4-4754-8b64-57c07962de8a  >>>>>>>
       // if (collapsedcontenet.style.height === "auto") {
       //   collapsedcontenet.style.height = "0";
       // }
     };
-
+    // console.log(collapsedcontenet.parentElement);
     collapsecontent();
-    console.log(closecontent.parentElement.nextElementSibling);
+    // console.log(closecontent.parentElement.nextElementSibling)
   });
 });
 // console.log("djdi");
 
 // const dropdownsvg = document.querySelector(".customIcon");
-console.log(dropdownsvg.closest(".MuiAccordionSummary-expandIconWrapper"));
+// console.log(dropdownsvg.closest(".MuiAccordionSummary-expandIconWrapper"));
 // dropdownsvg.addEventListener("click", function (event) {
-console.log("Clicked on svg");
+  // console.log("Clicked on svg");
 //   // event.target
 //   //   .closest(".MuiAccordionSummary-expandIconWrapper")
 //   //   .classList.toggle("Mui-expanded");
-console.log(event);
-console.log(event.target.closest(".MuiAccordionSummary-expandIconWrapper"));
+  // console.log(event);
+  // console.log(event.target.closest(".MuiAccordionSummary-expandIconWrapper"));
 // });
-console.log("djdi");
+// console.log("djdi");
 //So ii need a ja thats toggles the aria-expanded attribute tp fals and true, and also ads and removes the Mui-exppanded class. It adds it to to the two divs that have this class:

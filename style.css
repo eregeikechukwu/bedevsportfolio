@@ -1,4 +1,13 @@
+.unanimate {
+    height: 0px;
+}
+
 .animate {
     height: auto;
     transition: all 0.9s ease-in-out;
+}
+
+.transit {
+    /* height: 1000px; */
+    transition: all 4s;
 }
